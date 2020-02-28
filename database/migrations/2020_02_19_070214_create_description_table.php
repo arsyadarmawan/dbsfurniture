@@ -15,8 +15,7 @@ class CreateDescriptionTable extends Migration
     {
         Schema::create('description', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
-            $table->text('description')->nullable()->change();
+            $table->text('description');
             $table->timestamps();
         });
     }

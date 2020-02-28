@@ -14,7 +14,7 @@
 Route::get('/', 'ViewController@index')->name('home');
 
 Route::prefix('home')->group(function () {
-    Route::get('/about', 'ViewController@about')->name('about');
+    Route::get('/about', 'ViewController@about')->name('aboutme');
     Route::get('/product', 'ViewController@product')->name('product');
     Route::get('/product/order/{id}','ViewController@orderForm')->name('order');
     Route::get('/contact', function () {

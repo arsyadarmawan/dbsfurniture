@@ -22,7 +22,7 @@ class ViewController extends Controller
 
     public function about(){
         $desc = Description::findOrFail(1);
-         return view('content.main.about', compact('desc'));
+        return view('content.main.about', compact('desc'));
     }
 
     public function product(){

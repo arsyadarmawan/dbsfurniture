@@ -14,6 +14,7 @@ class DescriptionTableSeeder extends Seeder
         //
          $data = new \App\Model\Description;
          $data->description = 'lorem ipsum';
+         $data->name = 'lorem ipsum';
          $data->id = 1;
          $data->save();
          $this->command->info("Description succesfully added");

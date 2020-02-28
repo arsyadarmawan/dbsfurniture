@@ -63,7 +63,7 @@
                     <h4 class="parallax-quotes">Miliki Rumah Serasa Hotel</h4>
                 </div>
                 <div class="order center-align">
-                    <a href="order.html" class="center-align waves-effect waves-light btn-large blue darken-2">Pemesanan</a>
+                    <a href="{{route('orderCustom')}}" class="center-align waves-effect waves-light btn-large blue darken-2">Pemesanan</a>
                 </div>
             </div>
         </div>

@@ -19,7 +19,6 @@ class ViewController extends Controller
         return view('content.main.index',compact('products'));
     }
 
-
     public function about(){
         $desc = Description::findOrFail(1);
         return view('content.main.about', compact('desc'));

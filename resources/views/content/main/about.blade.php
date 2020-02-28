@@ -29,7 +29,6 @@
                     </div>
                     <div class="col m6 s12">
                         {!! $desc->description !!}
-                    {{-- <p>{{}}</p> --}}
                     </div>
                 </div>
 

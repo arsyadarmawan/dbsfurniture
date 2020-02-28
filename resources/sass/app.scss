@@ -117,6 +117,47 @@ body{
 
 }
 
+@media(max-width : 500px){
+  .box{
+    padding-top: 20px;
+    input {
+      position: relative;
+      display: inline-block;
+      font-size: 20px;
+      width: 70px;
+      box-sizing: border-box;
+      transition: .5s;
+    }
+    input[type="email"]{
+        background: #ffff;
+        width: 600px;
+        height: 20px;
+        border: none;
+        outline: none;
+        padding: 0 10px;
+        border-radius: 25px 0 0 25px;
+    }    
+    input[type="submit"]{
+        position: relative;
+        border-radius: 0 25px 25px 0;
+        width: 30px;
+        top: 2px;
+        left: -5px;
+        height: 50px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background: #000000;
+        color: #fff;
+    }
+
+    input[type="submit"]:hover{
+        background: #ff5722;
+    }
+
+}
+}
+
 
 .slider 
 {

@@ -7,7 +7,11 @@
 
 require('./bootstrap');
 
+require('../assets/owl/owl.carousel');
+
 window.Vue = require('vue');
+
+
 
 /**
  * The following block of code may be used to automatically register your
@@ -30,4 +34,35 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 const app = new Vue({
     el: '#app'
+});
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const background = document.querySelectorAll('.slider');
+    M.Slider.init(background, {
+        indicators: false,
+        height: 550
+    });
+
+    const parallax = document.querySelectorAll('.parallax');
+    M.Parallax.init(parallax);
+
+    const sidenav = document.querySelectorAll('.sidenav');
+    M.Sidenav.init(sidenav);
+
+    const materialboxed = document.querySelectorAll('.materialboxed');
+    M.Materialbox.init(materialboxed);
+
+    const scrollspy = document.querySelectorAll('.scrollspy');
+    M.ScrollSpy.init(scrollspy, {
+        scrollOffset: 70
+    });
+
+    const dropdown = document.querySelectorAll('.dropdown-trigger');
+    M.Dropdown.init(dropdown);
+
+    const select = document.querySelectorAll('select');
+    M.FormSelect.init(select);
 });

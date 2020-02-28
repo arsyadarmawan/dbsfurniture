@@ -2,13 +2,36 @@
 // Body
 $body-bg: #f8fafc;
 
+@font-face{
+    font-family: 'roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'background';
+    src: url('../fonts/Losttimoh.ttf');
+}
+
+
+
+@font-face{
+    font-family: 'roboto-bold';
+    src: url('../fonts/Roboto-Bold.ttf');
+    // src: url(../fonts/Roboto-Bold.ttf);
+}
+
+
+
 // Typography
+$font-roboto : 'roboto';
+$font-roboto-bold : 'roboto-bold';
+$font-background : 'background';
 $font-family-sans-serif: "Nunito", sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
 // Colors
-$blue: #3490dc;
+$blue: #152c3f;
 $indigo: #6574cd;
 $purple: #9561e2;
 $pink: #f66D9b;

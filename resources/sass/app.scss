@@ -6,9 +6,209 @@
 @import 'variables';
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// @import '~bootstrap/scss/bootstrap';
+@import '../assets/owl/assets/owl.carousel.min.css';
+@import '../assets/owl/assets/owl.theme.default.min.css';
+
 
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+nav .brand-logo{
+    font-family: $font-background;
+}
+
+
+body{
+   font-family: $font-roboto;  
+}
+
+
+/* color
+    primary : #ffab00
+*/
+
+
+
+#services h3,#portofolio h3{
+    padding: 20px;
+}
+
+.service{
+  &-heading{
+    padding: 2rem;
+    text-transform: uppercase; 
+    text-align: center;
+    font-family: $font-roboto-bold;
+    font-size: 2.5rem;
+    &-next{
+      color: #ffab00;
+    }    
+  }
+}
+
+
+
+.text-heading{
+  padding: 2rem;
+  text-transform: uppercase; 
+  text-align: center;
+  color: black;
+  font-family: "roboto-bold";
+  font-size: 2.5rem;
+  &-next{
+    color: #ffab00;
+  }
+}
+
+#subscription{
+    padding: 20px;
+}
+
+
+
+.subscription{
+  &-heading{
+    font-family: $font-roboto-bold;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #fff;
+  }
+}
+
+.box{
+    padding-top: 20px;
+    input {
+      position: relative;
+      display: inline-block;
+      font-size: 20px;
+      width: 70px;
+      box-sizing: border-box;
+      transition: .5s;
+    }
+    input[type="email"]{
+        background: #ffff;
+        width: 150px;
+        height: 50px;
+        border: none;
+        outline: none;
+        padding: 0 25px;
+        border-radius: 25px 0 0 25px;
+    }    
+    input[type="submit"]{
+        position: relative;
+        border-radius: 0 25px 25px 0;
+        width: 90px;
+        top: 2px;
+        left: -5px;
+        height: 50px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background: #000000;
+        color: #fff;
+    }
+
+    input[type="submit"]:hover{
+        background: #ff5722;
+    }
+
+}
+
+
+.slider 
+{
+  h3{
+    color: #ffff;
+    font-weight: bolder;
+    font-size: 7rem;
+    font-family: $font-background;
+    text-shadow: 1px 5px 1px #000;
+  }
+  h5{
+    color:#0000;
+    font-family: 'roboto';
+    text-shadow: 1px 2px 1px #000;
+  }
+}
+
+
+.parallax{
+  &-container{
+    height: 400px;
+  }
+
+  img{
+    opacity: 0.7 !important;
+  }
+
+  &-quotes{
+    margin-top: 5rem;
+    font-family: $font-background;
+    text-align: center;
+  }
+}
+
+.portofolio{
+    background-color:rgba(170, 175, 175, 0.26);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* opacity: 0.7 !important; */
+}
+
+
+#detail{
+    padding-bottom: 4.5rem;
+    margin-top: -250px;
+}
+
+#carousel{
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+}
+
+.carousel{
+    margin-top: -5rem;
+}
+
+/* order page */
+
+.spesification{
+    padding-top: 3rem;
+}
+
+.footer-social{
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+}
+
+.table-action{
+  display: inline;
+}
+
+.product{
+  &__content{
+    padding: 1rem;
+    &-title{
+      font-family: $font-roboto-bold;
+    }
+    &-category{
+        background-color: green;
+        color: white;
+        font-weight: bold;
+        font-size: 1.1rem;
+        padding: 3px;
+    }
+  }
+}
+
+.owl-carousel{
+  img{
+    height: 150px;
+    width: 80px;
+    padding: 4px;
+  }
 }

@@ -111,7 +111,7 @@ body {
   background: #ff5722;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .box {
     padding-top: 20px;
   }
@@ -136,9 +136,8 @@ body {
     position: relative;
     border-radius: 0 25px 25px 0;
     width: 70px;
-    top: 2px;
     left: -5px;
-    font-size: 30px;
+    font-size: 20px;
     height: 30px;
     border: none;
     outline: none;

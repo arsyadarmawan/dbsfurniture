@@ -30,7 +30,7 @@
                             <a href="{{route('detail',['id' => $item->id])}}"><img class="responsive-img z-depth-4" src="{{asset('storage/'.$item->cover)}}" /></a>
                         </div>
                         <div class="col m6 s12">
-                            <h5 class="product__content-title"><b>{{$item->title}}</b></h5>
+                            <h5 class="product__content-title"><b>{{strtoupper($item->title)}}</b></h5>
                             <p><span class="product__content-category">{{$item->category->name}}</span></p>
                             <p>Harga mulai dari <b> Rp.{{$item->price}}</b></p>
                             <p>{!! Str::limit($item->description, 150, $end=' ...') !!}</p>

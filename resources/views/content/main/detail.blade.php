@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-    DETAIL 
+    PRODUK {{strtoupper($product->title)}} 
 @endsection
 
 @section('navbar')
@@ -36,8 +36,8 @@
     <!-- end carousel -->
     <br>
     <!-- start spesifikasi -->
-    <section id="detail" class="spesification ">
-    <h3 class="grey-text text-darken-3 center-align flow-text">{{$product->title}}</h3>
+    <section id="detail" class="spesification "> 
+    <h3 class="grey-text text-darken-3 center-align flow-text"><b>{{strtoupper($product->title)}}</b></h3>
         <ul id="tabs-swipe-demo" class="tabs center-align">
             <li class="tab col s3 "><a href="#test-swipe-1">Deskripsi</a></li>
             <li class="tab col s3"><a class="active" href="#test-swipe-2">Pesan</a></li>

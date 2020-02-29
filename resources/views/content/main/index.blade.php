@@ -109,9 +109,13 @@
                         <div class="box">
                             <form action="{{route('subscriber')}}" method="POST">
                                 @csrf
-                                <input type="email" name="email" placeholder="masukan email">
+                                <div class="col s6">
+                                    <input type="email" name="email" placeholder="masukan email">
+                                </div>
+                                <div class="col s6">
+                                    <input type="submit" value="kirim">
+                                </div>
 
-                                <input type="submit" value="kirim">
                             </form>
                         </div>
                     </div>

@@ -29,6 +29,7 @@ Route::prefix('home')->group(function () {
     Route::post('product/','ViewController@orderStore')->name('store.order');
     // Route::get('order','CustomOrderController@index')->name('custom.index');
      Route::get('/ordercustom','ViewController@orderCustom')->name('orderCustom');
+     Route::post('/ordercustom', 'ViewController@storeOrderCustom')->name('customorder.post');
      Route::post('/subsc', 'ViewController@subscriber')->name('subscriber');
 
 });

@@ -6,6 +6,7 @@ use App\Model\Description;
 use App\Model\Order;
 use App\Model\Feedback;
 use App\Model\Category;
+use App\Model\OrderCustom;
 use Illuminate\Http\Request;
 use \Illuminate\Support\Str;
 
@@ -55,6 +56,24 @@ class ViewController extends Controller
         $categories = Category::all();
         $description = Description::all();
         return view('content.main.order', compact('categories','description'));
+    }
+
+    public function storeOrderCustom(Request $request)
+    {
+        //
+        $data = new OrderCustom;
+        $data->name = $request->get('name');
+        $data->email = $request->get('email');
+        $data->telepon = $request->get('number');
+        $data->address = $request->get('address');
+        $data->category_id = $request->get('category');
+        $data->description = $request->get('message');
+        if ($request->hasFile('file') ) {
+            $imageStore = $request->file('file')->store('customs','public');
+        }
+        $data->images = $imageStore;
+        $data->save();
+        return redirect()->route('orderCustom');
     }
 
     public function subscriber(Request $request)

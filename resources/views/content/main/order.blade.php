@@ -45,11 +45,11 @@
             <div id="test-swipe-2" class="col s12">
                 <div class="container">
                     <h5><b>Pesan Disini</b></h5>
-                    <form action="{{route('custom.store')}}" method="POST"  enctype="multipart/form-data">
+                    <form action="{{route('customorder.post')}}" method="POST"  enctype="multipart/form-data">
                             @csrf
                             <!-- <h5>Kirim Pesanan Anda</h5> -->
                             <div class="input-field">
-                                <input required type="text" name="name" id="name" class="validate">
+                                <input required type="text" name="name" id="name">
                                 <label for="name">Nama</label>
                             </div>
                             <div class="input-field">
@@ -81,7 +81,7 @@
                                 <div class="file-field input-field">
                                     <div class="btn blue darken-2">
                                         <span>File</span>
-                                        <input type="file" name="file" multiple>
+                                        <input type="file" name="file">
                                     </div>
                                     <div class="file-path-wrapper">
                                         <input class="file-path validate" type="text" placeholder="Upload file jika memiliki referensi desain">

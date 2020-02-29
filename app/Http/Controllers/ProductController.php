@@ -147,6 +147,16 @@ class ProductController extends Controller
     public function destroy($id)
     {
         $data = Product::findOrFail($id);
+        foreach(\json_decode($data->image) as $key=>$img){
+            if(file_exists(storage_path('app/public/' . $img))){
+                \Storage::delete('public/'.$img);
+            }
+        }
+
+        if ($data->cover && \file_exists(\storage_path('app/public/'.$data->cover))) {
+            # code...
+            \Storage::delete('public/'.$data->cover);
+        }
         $data->delete();
         return redirect()->route('product.index')->with('delete','product di hapus');
     }

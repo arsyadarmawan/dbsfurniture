@@ -1,7 +1,7 @@
 <section id="heading">
     <div class="parallax-container">
         <div class="parallax">
-            <img src="{{asset('img/product/meja.jfif')}}">
+            <img src="{{asset('img/product/image1.jfif')}}">
         </div>
     </div>
 </section>

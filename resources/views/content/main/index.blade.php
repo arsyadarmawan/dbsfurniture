@@ -36,7 +36,7 @@
                     <div class="card-panel">
                         <i class="large material-icons">local_convenience_store</i>
                         <h6><b>Toko / Cafe</b></h6>
-                        <p>Kami siap menyiadakan produk-produk unggulan kami seperti ruang kantor, meja kantor, dan segala kebutuhan kantor. Kami memberikan layanan 
+                        <p>Kami siap menyiadakan produk-produk unggulan kami seperti ruang kursi bar, meja bar, dan segala kebutuhan kafe. Kami memberikan layanan 
                             pesananan secara kustom atau desain dari kami <br></p>
                     </div>
                 </div>
@@ -130,25 +130,31 @@
         <div class="container">
             <h3 class="text-heading">Portofolio <span class="text-heading-next">Kami</span></h3>
             <div class="row">
-                <div class="col m4 s12">
-                    <img class="responsive-img materialboxed" src="{{asset('img/product/bed.jfif')}}">
+                <div class="col m3 s6">
+                    <img class="responsive-img materialboxed" src="{{asset('img/product/image5.jfif')}}">
                 </div>
-                <div class="col m4 s12">
-                    <img class="responsive-img materialboxed" src="{{asset('img/product/kitchen.jfif')}}">
+                <div class="col m3 s6">
+                    <img class="responsive-img materialboxed" src="{{asset('img/product/image6.jfif')}}">
                 </div>
-                <div class="col m4 s12">
-                    <img class="responsive-img materialboxed" src="{{asset('img/product/photo-1554624219-9ef0715c9afc.jfif')}}">
+                <div class="col m3 s6">
+                    <img class="responsive-img materialboxed" src="{{asset('img/product/image7.jfif')}}">
+                </div>
+                <div class="col m3 s6">
+                    <img class="responsive-img materialboxed" src="{{asset('img/product/image8.jfif')}}">
                 </div>
             </div>
             <div class="row">
-                <div class="col m4 s12">
-                    <img class="responsive-img materialboxed" src="{{asset('img/background/back-4.jfif')}}">
+                <div class="col m3 s6">
+                    <img class="responsive-img materialboxed" src="{{asset('img/product/image3.jfif')}}">
                 </div>
-                <div class="col m4 s12">
-                    <img class="responsive-img materialboxed" src="{{asset('img/product/cabinet.jfif')}}">
+                <div class="col m3 s6">
+                    <img class="responsive-img materialboxed" src="{{asset('img/product/image1.jfif')}}">
                 </div>
-                <div class="col m4 s12">
-                    <img class="responsive-img materialboxed" src="{{asset('img/product/bar.jfif')}}">
+                <div class="col m3 s6">
+                    <img class="responsive-img materialboxed" src="{{asset('img/product/image4.jfif')}}">
+                </div>
+                <div class="col m3 s6">
+                    <img class="responsive-img materialboxed" src="{{asset('img/product/image2.jfif')}}">
                 </div>
             </div>
         </div>

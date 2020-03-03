@@ -7,6 +7,7 @@
                 <a href="#" data-target="mobile-nav" class="sidenav-trigger">
                     <i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="{{url('/')}}" class="black-text">Beranda</a></li>
                     <li><a href="{{route('aboutme')}}" class="black-text">Tentang Kami</a></li>
                     <li><a href="{{route('product')}}" class="black-text">Produk</a></li>
                     <li><a href="{{route('orderCustom')}}" class="black-text">Pemesanan</a></li>

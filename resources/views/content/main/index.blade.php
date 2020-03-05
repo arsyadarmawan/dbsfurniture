@@ -27,7 +27,7 @@
                     <div class="card-panel">
                         <i class="large material-icons ">local_hotel</i>
                         <h6><b>Perlengkapan Rumah </b></h6>
-                        <p>Kami siap menyiadakan produk-produk unggulan kami seperti kitchen set, ruang tamu, perlengkapan tidur. Kami memberikan layanan 
+                        <p>Kami siap menyediakan produk-produk unggulan kami seperti kitchen set, ruang tamu, perlengkapan tidur. Kami memberikan layanan 
                             pesananan secara kustom atau desain dari kami
                         </p>
                     </div>
@@ -36,7 +36,7 @@
                     <div class="card-panel">
                         <i class="large material-icons">local_convenience_store</i>
                         <h6><b>Toko / Cafe</b></h6>
-                        <p>Kami siap menyiadakan produk-produk unggulan kami seperti ruang kursi bar, meja bar, dan segala kebutuhan kafe. Kami memberikan layanan 
+                        <p>Kami siap menyediakan produk-produk unggulan kami seperti ruang kursi bar, meja bar, dan segala kebutuhan kafe. Kami memberikan layanan 
                             pesananan secara kustom atau desain dari kami <br></p>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                     <div class="card-panel">
                         <i class="large material-icons">location_city</i>
                         <h6><b>Kantor dan Hotel</b></h6>
-                        <p>Kami siap menyiadakan produk-produk unggulan kami seperti ruang kantor, meja kantor, dan segala kebutuhan kantor. Kami memberikan layanan 
+                        <p>Kami siap menyediakan produk-produk unggulan kami seperti ruang kantor, meja kantor, dan segala kebutuhan kantor. Kami memberikan layanan 
                             pesananan secara kustom atau desain dari kami </p>
                     </div>
                 </div>
